@@ -1,0 +1,39 @@
+@charset "utf-8";
+body{
+    margin:0px;
+}
+#container{
+    width: 1000px;
+    margin:0px auto;
+}
+#banner{
+    height:150px;
+    background-color: red;
+}
+#menu{
+    height: 20px;
+    padding:5px;
+    background-color: darkblue;
+}
+#lmenu{
+    width: 150px;
+    padding: 10px;
+    background-color: green;
+    float:left;
+}
+#content{
+    width:810px;
+    padding: 10px;
+    background-color: gray;
+    float: left;
+}
+a:hover{color: yellow;}
+a:visited, a:link{color: white;}
+li{list-style-type: square;}
+.sp{
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    background-color: darkblue;
+    margin: 5px; float: left;
+}
